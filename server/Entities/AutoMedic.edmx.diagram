@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c6765ac4938b43dc94d40dc6391983e8" Name="Diagram1">
+        <EntityTypeShape EntityType="automedicModel.Alerts" Width="1.5" PointX="10.5" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="automedicModel.Contact" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="automedicModel.DayAlerts" Width="1.5" PointX="12.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="automedicModel.HMO" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="automedicModel.medicine" Width="1.5" PointX="6" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="automedicModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="automedicModel.Tracking" Width="1.5" PointX="10.5" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="automedicModel.UserMedicines" Width="1.5" PointX="8.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="automedicModel.Users" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <AssociationConnector Association="automedicModel.FK_Alerts_UserMedicines" ManuallyRouted="false" />
+        <AssociationConnector Association="automedicModel.FK_DayAlerts_Alerts" ManuallyRouted="false" />
+        <AssociationConnector Association="automedicModel.FK_Contact_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="automedicModel.FK_Users_HMO" ManuallyRouted="false" />
+        <AssociationConnector Association="automedicModel.FK_UserMedicines_medicine" ManuallyRouted="false" />
+        <AssociationConnector Association="automedicModel.FK_Tracking_UserMedicines" ManuallyRouted="false" />
+        <AssociationConnector Association="automedicModel.FK_UserMedicines_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

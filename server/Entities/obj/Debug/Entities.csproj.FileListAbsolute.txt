@@ -1,0 +1,182 @@
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Entities\bin\Debug\Entities.dll.config
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Entities\bin\Debug\Entities.dll
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Entities\bin\Debug\Entities.pdb
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Entities\bin\Debug\EntityFramework.dll
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Entities\bin\Debug\EntityFramework.SqlServer.dll
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Entities\bin\Debug\EntityFramework.xml
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Entities\bin\Debug\EntityFramework.SqlServer.xml
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Entities\obj\Debug\Entities.dll
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Entities\obj\Debug\Entities.pdb
+C:\Users\hitmachut\Desktop\server\Michrazol\Entities\bin\Debug\Entities.dll.config
+C:\Users\hitmachut\Desktop\server\Michrazol\Entities\bin\Debug\Entities.dll
+C:\Users\hitmachut\Desktop\server\Michrazol\Entities\bin\Debug\Entities.pdb
+C:\Users\hitmachut\Desktop\server\Michrazol\Entities\bin\Debug\EntityFramework.dll
+C:\Users\hitmachut\Desktop\server\Michrazol\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hitmachut\Desktop\server\Michrazol\Entities\bin\Debug\EntityFramework.xml
+C:\Users\hitmachut\Desktop\server\Michrazol\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hitmachut\Desktop\server\Michrazol\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+C:\Users\hitmachut\Desktop\server\Michrazol\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\hitmachut\Desktop\server\Michrazol\Entities\obj\Debug\Entities.dll
+C:\Users\hitmachut\Desktop\server\Michrazol\Entities\obj\Debug\Entities.pdb
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\Entities.dll.config
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\Entities.dll
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\Entities.pdb
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\EntityFramework.dll
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\EntityFramework.SqlServer.dll
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\EntityFramework.xml
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\EntityFramework.SqlServer.xml
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Entities\obj\Debug\Entities.dll
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Entities\obj\Debug\Entities.pdb
+D:\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\Entities.dll.config
+D:\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\Entities.dll
+D:\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\Entities.pdb
+D:\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\EntityFramework.dll
+D:\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\EntityFramework.xml
+D:\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\AAAA\מיכרזול\server\Michrazol\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+D:\AAAA\מיכרזול\server\Michrazol\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\AAAA\מיכרזול\server\Michrazol\Entities\obj\Debug\Entities.dll
+D:\AAAA\מיכרזול\server\Michrazol\Entities\obj\Debug\Entities.pdb
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\Entities.dll.config
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\Entities.dll
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\Entities.pdb
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Entities\obj\Debug\Entities.dll
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Entities\obj\Debug\Entities.pdb
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\Entities.dll.config
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\Entities.dll
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\Entities.pdb
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\EntityFramework.dll
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\EntityFramework.SqlServer.dll
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\EntityFramework.xml
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Entities\bin\Debug\EntityFramework.SqlServer.xml
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Entities\obj\Debug\Entities.dll
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Entities\obj\Debug\Entities.pdb
+C:\Users\hitmachut\Desktop\AutoMedic\Entities\bin\Debug\Entities.dll.config
+C:\Users\hitmachut\Desktop\AutoMedic\Entities\bin\Debug\Entities.dll
+C:\Users\hitmachut\Desktop\AutoMedic\Entities\bin\Debug\Entities.pdb
+C:\Users\hitmachut\Desktop\AutoMedic\Entities\bin\Debug\EntityFramework.dll
+C:\Users\hitmachut\Desktop\AutoMedic\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hitmachut\Desktop\AutoMedic\Entities\bin\Debug\EntityFramework.xml
+C:\Users\hitmachut\Desktop\AutoMedic\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hitmachut\Desktop\AutoMedic\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+C:\Users\hitmachut\Desktop\AutoMedic\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\hitmachut\Desktop\AutoMedic\Entities\obj\Debug\Entities.dll
+C:\Users\hitmachut\Desktop\AutoMedic\Entities\obj\Debug\Entities.pdb
+Y:\group 2 תשעח\ולדר חני\פרויקט גמר\AutoMedic\Entities\bin\Debug\Entities.dll.config
+Y:\group 2 תשעח\ולדר חני\פרויקט גמר\AutoMedic\Entities\bin\Debug\Entities.dll
+Y:\group 2 תשעח\ולדר חני\פרויקט גמר\AutoMedic\Entities\bin\Debug\Entities.pdb
+Y:\group 2 תשעח\ולדר חני\פרויקט גמר\AutoMedic\Entities\bin\Debug\EntityFramework.dll
+Y:\group 2 תשעח\ולדר חני\פרויקט גמר\AutoMedic\Entities\bin\Debug\EntityFramework.SqlServer.dll
+Y:\group 2 תשעח\ולדר חני\פרויקט גמר\AutoMedic\Entities\bin\Debug\EntityFramework.xml
+Y:\group 2 תשעח\ולדר חני\פרויקט גמר\AutoMedic\Entities\bin\Debug\EntityFramework.SqlServer.xml
+Y:\group 2 תשעח\ולדר חני\פרויקט גמר\AutoMedic\Entities\obj\Debug\Entities.dll
+Y:\group 2 תשעח\ולדר חני\פרויקט גמר\AutoMedic\Entities\obj\Debug\Entities.pdb
+Y:\group 2 תשעח\ולדר חני\פרויקט גמר\AutoMedic\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+Y:\group 2 תשעח\ולדר חני\פרויקט גמר\AutoMedic\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\Entities.dll.config
+D:\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\Entities.dll
+D:\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\Entities.pdb
+D:\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\EntityFramework.dll
+D:\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\EntityFramework.xml
+D:\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+D:\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\obj\Debug\Entities.dll
+D:\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\obj\Debug\Entities.pdb
+D:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\Entities.dll.config
+D:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\Entities.dll
+D:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\Entities.pdb
+D:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\EntityFramework.dll
+D:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\EntityFramework.xml
+D:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+D:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\obj\Debug\Entities.dll
+D:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\obj\Debug\Entities.pdb
+C:\Users\user1\Desktop\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\Entities.dll.config
+C:\Users\user1\Desktop\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\Entities.dll
+C:\Users\user1\Desktop\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\Entities.pdb
+C:\Users\user1\Desktop\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\EntityFramework.dll
+C:\Users\user1\Desktop\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user1\Desktop\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\EntityFramework.xml
+C:\Users\user1\Desktop\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user1\Desktop\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+C:\Users\user1\Desktop\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\obj\Debug\Entities.dll
+C:\Users\user1\Desktop\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\obj\Debug\Entities.pdb
+F:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\Entities.dll.config
+F:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\Entities.dll
+F:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\Entities.pdb
+F:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\EntityFramework.dll
+F:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\EntityFramework.SqlServer.dll
+F:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\EntityFramework.xml
+F:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\EntityFramework.SqlServer.xml
+F:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+F:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+F:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\obj\Debug\Entities.dll
+F:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\obj\Debug\Entities.pdb
+C:\Users\user1\Desktop\שהחיינו2\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\Entities.dll.config
+C:\Users\user1\Desktop\שהחיינו2\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\Entities.dll
+C:\Users\user1\Desktop\שהחיינו2\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\Entities.pdb
+C:\Users\user1\Desktop\שהחיינו2\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\EntityFramework.dll
+C:\Users\user1\Desktop\שהחיינו2\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user1\Desktop\שהחיינו2\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\EntityFramework.xml
+C:\Users\user1\Desktop\שהחיינו2\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user1\Desktop\שהחיינו2\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+C:\Users\user1\Desktop\שהחיינו2\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\obj\Debug\Entities.dll
+C:\Users\user1\Desktop\שהחיינו2\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Entities\obj\Debug\Entities.pdb
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Entities\bin\Debug\Entities.dll.config
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Entities\bin\Debug\Entities.dll
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Entities\bin\Debug\Entities.pdb
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Entities\bin\Debug\EntityFramework.dll
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Entities\bin\Debug\EntityFramework.xml
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Entities\obj\Debug\Entities.csproj.CopyComplete
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Entities\obj\Debug\Entities.dll
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Entities\obj\Debug\Entities.pdb
+D:\פרויקט מירי וחני\server\Entities\bin\Debug\Entities.dll.config
+D:\פרויקט מירי וחני\server\Entities\bin\Debug\Entities.dll
+D:\פרויקט מירי וחני\server\Entities\bin\Debug\Entities.pdb
+D:\פרויקט מירי וחני\server\Entities\bin\Debug\EntityFramework.dll
+D:\פרויקט מירי וחני\server\Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\פרויקט מירי וחני\server\Entities\bin\Debug\EntityFramework.xml
+D:\פרויקט מירי וחני\server\Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\פרויקט מירי וחני\server\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+D:\פרויקט מירי וחני\server\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\פרויקט מירי וחני\server\Entities\obj\Debug\Entities.csproj.CopyComplete
+D:\פרויקט מירי וחני\server\Entities\obj\Debug\Entities.dll
+D:\פרויקט מירי וחני\server\Entities\obj\Debug\Entities.pdb
+F:\פרויקט מירי וחני\server\Entities\bin\Debug\Entities.dll.config
+F:\פרויקט מירי וחני\server\Entities\bin\Debug\Entities.dll
+F:\פרויקט מירי וחני\server\Entities\bin\Debug\Entities.pdb
+F:\פרויקט מירי וחני\server\Entities\bin\Debug\EntityFramework.dll
+F:\פרויקט מירי וחני\server\Entities\bin\Debug\EntityFramework.SqlServer.dll
+F:\פרויקט מירי וחני\server\Entities\bin\Debug\EntityFramework.xml
+F:\פרויקט מירי וחני\server\Entities\bin\Debug\EntityFramework.SqlServer.xml
+F:\פרויקט מירי וחני\server\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+F:\פרויקט מירי וחני\server\Entities\obj\Debug\Entities.dll
+F:\פרויקט מירי וחני\server\Entities\obj\Debug\Entities.pdb
+C:\Users\user1\Desktop\פרויקט מירי וחני\server\Entities\bin\Debug\Entities.dll.config
+C:\Users\user1\Desktop\פרויקט מירי וחני\server\Entities\bin\Debug\Entities.dll
+C:\Users\user1\Desktop\פרויקט מירי וחני\server\Entities\bin\Debug\Entities.pdb
+C:\Users\user1\Desktop\פרויקט מירי וחני\server\Entities\bin\Debug\EntityFramework.dll
+C:\Users\user1\Desktop\פרויקט מירי וחני\server\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user1\Desktop\פרויקט מירי וחני\server\Entities\bin\Debug\EntityFramework.xml
+C:\Users\user1\Desktop\פרויקט מירי וחני\server\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user1\Desktop\פרויקט מירי וחני\server\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+C:\Users\user1\Desktop\פרויקט מירי וחני\server\Entities\obj\Debug\Entities.dll
+C:\Users\user1\Desktop\פרויקט מירי וחני\server\Entities\obj\Debug\Entities.pdb

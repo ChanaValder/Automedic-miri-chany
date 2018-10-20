@@ -1,0 +1,96 @@
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Teko" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+        <title> Prolist - Directory & Listings HTML Template </title>
+    </head>
+
+
+
+
+
+
+    <!-- <button title="הוסף תרופה לרשימה שלך" class="btn btn-info" (click)="addUserMedicine()">הוסף תרופה לרשימה שלך</button> -->
+    <div id="picture"></div>
+    <!-- <img src="src/app/pictures/automadic.jpg"> -->
+<div id="divMedicine">
+        <h1 class="headerMedicine">
+                my medicines
+            </h1>
+           
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 search">
+                            <div id="custom-search-input">
+                                <div class="input-group col-md-12">
+                                    <input id="search" type="text" class="form-control input-lg" placeholder="Search medicine" (keyup)=search($event.target.value) />
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-info btn-lg" type="button">
+                                            <i class="glyphicon glyphicon-search"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div *ngIf="userMedicineList[0]" class="addButton">
+                    <button title="הוסף תרופה לרשימה שלך" class="btn btn-info" (click)="addUserMedicine()">add medicine</button>
+                </div>
+            
+	<div class="cd-faq-items">
+            <ul id="info" class="cd-faq-group">
+                <li  *ngFor="let item of userMedicineList ">
+                    <div>
+                    <div class="cd-faq-trigger" id={{item.medicineName}} (click)="showMoreDetails(item,$event)">{{item.medicineName}}</div>
+                    <button title="ערוך " class="btn btn-link edit" (click)="editMedicine(item)">edit</button>
+                    <!-- <a href="#"> -->
+                        <span class="glyphicon glyphicon-trash btn btn-link delete" (click)="deleteMedicine(item)">delete</span>
+                    <!-- </a> -->
+                    <!-- <div class="cd-faq-content">
+                    </div> cd-faq-content -->
+                </div>
+                </li>
+            </ul> <!-- cd-faq-group -->
+    </div>    
+</div>
+
+                <!-- <div id="listMedicine" *ngFor="let item of userMedicineList ">
+                    <div class="medicineDiv">{{item.medicineName}}
+                        <button title="ערוך " class="btn btn-link" (click)="editMedicine(item)">ערוך</button>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-trash" (click)="deleteMedicine(item)"></span>
+                        </a>
+                        
+                       <div>
+                            <button title="more details " class="btn .btn-link more " (click)="showMoreDetails(item) ">v</button>
+    
+                        </div>
+                    </div> -->
+                    <!-- <div *ngIf="isAllDetails">
+
+                        <div>{{item.amount}}</div>
+                        <div>{{item.timesADay}}</div>
+                        <div>{{item.frequency}}</div>
+                        <div>{{item.timesADay}}</div>
+                        <div>{{item.fromDate}}</div>
+                        <div>{{item.toDate}}</div>
+                        <div>{{item.unitsInStock}}</div>
+                    </div> -->
+<!-- 
+                </div> -->
+                <!-- </tbody> -->
+            <!-- </div> -->
+
+
+        <!-- </div> -->
+        <!-- all the details of medicine -->
+
+    <!-- </div> -->
+   
+    <div *ngIf="!userMedicineList[0]">
+        <h1>you dont have any medicines</h1>
+        <button title="הוסף תרופה לרשימה שלך" class="btn btn-info" (click)="addUserMedicine()">click here for add your first medicine!</button>
+    </div>
+

@@ -1,0 +1,8 @@
+body{
+	background-image:url("src/app/pictures/homePage.png")!important;
+    background-repeat: no-repeat;
+   
+   } 
+   body{
+    margin-top: 4vh;
+}

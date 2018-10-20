@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="automedicModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Alerts">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userMedicineId" Type="Int32" />
+    <Property Name="hour" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="UserMedicines" Relationship="Self.FK_Alerts_UserMedicines" FromRole="Alerts" ToRole="UserMedicines" />
+    <NavigationProperty Name="DayAlerts" Relationship="Self.FK_DayAlerts_Alerts" FromRole="Alerts" ToRole="DayAlerts" />
+  </EntityType>
+  <EntityType Name="Contact">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userId" Type="Int64" />
+    <Property Name="mailAccount" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Contact_Users" FromRole="Contact" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="DayAlerts">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="date" Type="DateTime" Precision="3" />
+    <Property Name="isTaken" Type="Boolean" />
+    <Property Name="alertId" Type="Int32" />
+    <NavigationProperty Name="Alerts" Relationship="Self.FK_DayAlerts_Alerts" FromRole="DayAlerts" ToRole="Alerts" />
+  </EntityType>
+  <EntityType Name="HMO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="link" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Users_HMO" FromRole="HMO" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="medicine">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" />
+    <Property Name="medicineName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="amount" Type="Int32" />
+    <NavigationProperty Name="UserMedicines" Relationship="Self.FK_UserMedicines_medicine" FromRole="medicine" ToRole="UserMedicines" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Tracking">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="dateTime" Type="DateTime" Precision="3" />
+    <Property Name="userMedicineId" Type="Int32" />
+    <NavigationProperty Name="UserMedicines" Relationship="Self.FK_Tracking_UserMedicines" FromRole="Tracking" ToRole="UserMedicines" />
+  </EntityType>
+  <EntityType Name="UserMedicines">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userId" Type="Int64" Nullable="false" />
+    <Property Name="medicineId" Type="Int64" />
+    <Property Name="fromDate" Type="DateTime" Precision="0" />
+    <Property Name="toDate" Type="DateTime" Precision="0" />
+    <Property Name="amount" Type="Double" />
+    <Property Name="timesADay" Type="Int32" />
+    <Property Name="frequency" Type="Int32" />
+    <Property Name="unitsInStock" Type="Int32" />
+    <NavigationProperty Name="Alerts" Relationship="Self.FK_Alerts_UserMedicines" FromRole="UserMedicines" ToRole="Alerts" />
+    <NavigationProperty Name="medicine" Relationship="Self.FK_UserMedicines_medicine" FromRole="UserMedicines" ToRole="medicine" />
+    <NavigationProperty Name="Tracking" Relationship="Self.FK_Tracking_UserMedicines" FromRole="UserMedicines" ToRole="Tracking" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_UserMedicines_Users" FromRole="UserMedicines" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tz" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="firstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="lastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="hmoId" Type="Int32" />
+    <Property Name="mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Contact" Relationship="Self.FK_Contact_Users" FromRole="Users" ToRole="Contact" />
+    <NavigationProperty Name="HMO" Relationship="Self.FK_Users_HMO" FromRole="Users" ToRole="HMO" />
+    <NavigationProperty Name="UserMedicines" Relationship="Self.FK_UserMedicines_Users" FromRole="Users" ToRole="UserMedicines" />
+  </EntityType>
+  <Association Name="FK_Alerts_UserMedicines">
+    <End Role="UserMedicines" Type="Self.UserMedicines" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Alerts" Type="Self.Alerts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserMedicines">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Alerts">
+        <PropertyRef Name="userMedicineId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DayAlerts_Alerts">
+    <End Role="Alerts" Type="Self.Alerts" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DayAlerts" Type="Self.DayAlerts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Alerts">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DayAlerts">
+        <PropertyRef Name="alertId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Contact_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Contact" Type="Self.Contact" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Contact">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_HMO">
+    <End Role="HMO" Type="Self.HMO" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HMO">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="hmoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserMedicines_medicine">
+    <End Role="medicine" Type="Self.medicine" Multiplicity="0..1" />
+    <End Role="UserMedicines" Type="Self.UserMedicines" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="medicine">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserMedicines">
+        <PropertyRef Name="medicineId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tracking_UserMedicines">
+    <End Role="UserMedicines" Type="Self.UserMedicines" Multiplicity="0..1" />
+    <End Role="Tracking" Type="Self.Tracking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserMedicines">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Tracking">
+        <PropertyRef Name="userMedicineId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserMedicines_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="UserMedicines" Type="Self.UserMedicines" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="UserMedicines">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="automedicEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Alerts" EntityType="Self.Alerts" />
+    <EntitySet Name="Contact" EntityType="Self.Contact" />
+    <EntitySet Name="DayAlerts" EntityType="Self.DayAlerts" />
+    <EntitySet Name="HMO" EntityType="Self.HMO" />
+    <EntitySet Name="medicine" EntityType="Self.medicine" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Tracking" EntityType="Self.Tracking" />
+    <EntitySet Name="UserMedicines" EntityType="Self.UserMedicines" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK_Alerts_UserMedicines" Association="Self.FK_Alerts_UserMedicines">
+      <End Role="UserMedicines" EntitySet="UserMedicines" />
+      <End Role="Alerts" EntitySet="Alerts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DayAlerts_Alerts" Association="Self.FK_DayAlerts_Alerts">
+      <End Role="Alerts" EntitySet="Alerts" />
+      <End Role="DayAlerts" EntitySet="DayAlerts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Contact_Users" Association="Self.FK_Contact_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Contact" EntitySet="Contact" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_HMO" Association="Self.FK_Users_HMO">
+      <End Role="HMO" EntitySet="HMO" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserMedicines_medicine" Association="Self.FK_UserMedicines_medicine">
+      <End Role="medicine" EntitySet="medicine" />
+      <End Role="UserMedicines" EntitySet="UserMedicines" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tracking_UserMedicines" Association="Self.FK_Tracking_UserMedicines">
+      <End Role="UserMedicines" EntitySet="UserMedicines" />
+      <End Role="Tracking" EntitySet="Tracking" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserMedicines_Users" Association="Self.FK_UserMedicines_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserMedicines" EntitySet="UserMedicines" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(automedicModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(automedicModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

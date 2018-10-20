@@ -1,0 +1,37 @@
+<div id="picture"></div>
+<div class="bg-grey">
+    <h1>
+        <h1>{{todayDate}}</h1>My daily medications</h1>
+
+
+    <table class='table table-striped'>
+        <thead>
+            <tr>
+                <th>Medicine name</th>
+                <th>Alert time</th>
+                <th>Was taken</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of dayAlertList ">
+                <td>{{item.nameMedicine}}</td>
+                <td>{{item.hour}}</td>
+                <td>
+                    <input [checked]="item.isTaken" [(ngModel)]="item.isTaken" type="checkbox" (click)="dayAlertCheckBox(item.id,$event)"
+                    />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div>
+        <input type="button" (click)="seeDateAlerts()">
+        <div *ngIf="isDateAlerts" class="input-group">
+            <span class="input-group-addon">choose date</span>
+            <input type="date" class="form-control" (change)="pickDate()" #myDate [value]="dateForAlerts.toDate() | date:'yyyy-MM-dd'"
+                (input)="dateForAlerts=parseDate($event.target.value); dateForAlerts=parseDate($event.target.value)" />
+
+        </div>
+
+    </div>
+</div>

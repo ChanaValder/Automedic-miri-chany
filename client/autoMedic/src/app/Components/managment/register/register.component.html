@@ -1,0 +1,71 @@
+
+
+  <div id="register">
+
+      <form action="/action_page.php"  #HeroModelForm="ngForm" id="bigDiv" (ngSubmit)="OnSubmit()">
+
+        <div class="form-group">
+
+          <label><b>User first name</b></label>
+          <input id="firstname" name="firstname" class="form-control" type="text"                  placeholder="Enter Username" name="usrname" [(ngModel)]="myHero.firstName" required                            #firstName="ngModel">
+          <div type="text" class="alert alert-danger" *ngIf="!firstName.valid && firstName.touched">The first           name is required</div>
+          </div>
+
+  <div class="form-group">
+    <label><b>User last name</b></label>
+          <input id="lastName" name="lastName" class="form-control" type="text"                  placeholder="Enter Username" name="usrname" [(ngModel)]="myHero.lastName" required                            #lastName="ngModel">
+        <div type="text" class="alert alert-danger" *ngIf="!lastName.valid && lastName.touched">The last name          is required</div>
+          </div>
+        
+        <div class="form-group">
+
+         <label><b>User tz</b></label>
+          <input  id="tz"name="tz" class="form-control" type="text"                                placeholder="Enter tz" minlength="9" max="9"  [(ngModel)]="myHero.tz" maxlength="9" min="9"                    required #tz="ngModel" >
+          <div type="text" class="alert alert-danger" *ngIf="!pass.valid && pass.touched">The tz is    required</div>
+       <div type="text" class="alert alert-danger" *ngIf="!pass.valid && pass.touched">The tz must be 9              digites</div>
+         </div>
+         
+
+
+  <div class="form-group">
+    <label><b>User email</b></label>
+          <input type="email" id="mail" name="mail"  class="form-control" type="email"                  placeholder="Enter email" [(ngModel)]="myHero.mail" required #mail="ngModel">
+      <div type="text" class="alert alert-danger" *ngIf="!mail.valid && mail.touched">The mail is required</div>
+          </div>
+          
+          
+          
+          <div class="form-group">
+  <label>קופת חולים</label>
+
+  <select name="hmo" [(ngModel)]="myHero.hmoId" class="form-control">
+      <option *ngFor="let item of hmoList" [ngValue]="item.id">{{item.name}}</option>
+  </select>
+</div>
+
+        
+          <div class="form-group">
+          <label><b>Password</b></label>
+          <input class="form-control" id="password"name="password" type="password" placeholder="Enter Password" minlength="8" max="8"  [(ngModel)]="myHero.password" maxlength="8" min="8" required #pass="ngModel">
+          
+           <div type="password" class="alert alert-danger" *ngIf="!pass.valid && pass.touched">The password is required</div>
+  <div type="password" class="alert alert-danger" *ngIf="!pass.valid && pass.touched">The password must be 8 digites</div>
+    </div>
+    
+
+          <div class="form-group">
+          <label><b>Password</b></label>
+          <input class="form-control" name="verPass"id="verPass" type="password" placeholder="enter verifiy password" minlength="8" max="8"  [(ngModel)]="myHero.password" maxlength="8" min="8"  required #verPass="ngModel">
+           <div type="password" class="alert alert-danger" *ngIf="!verPass.valid &&verPass.touched">The password is required</div>
+    </div>
+    
+    
+    
+          <button id="button" class="w3-button w3-block w3-green w3-section w3-padding" type="submit" value="register">Register</button>
+          <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me
+   
+        
+      </form>
+
+      
+    </div>

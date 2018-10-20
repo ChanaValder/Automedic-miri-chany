@@ -1,0 +1,41 @@
+
+
+  <!-- <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-green w3-large">Login</button>  -->
+
+    <div id="login">
+
+      <form  #HeroModelForm="ngForm" (ngSubmit)="OnSubmit()" name="h">
+        <div class="w3-section" id="mail">
+            <div class="form-group">      
+               
+                <input type="text" class="form-control" placeholder="Email adress" id="emailaddress"
+                required
+                [(ngModel)]="mail" name="email"
+                pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" 
+                #email="ngModel">
+
+                   <div *ngIf=email.errors?.required&&email.touched>Email is required</div>
+                   <div  *ngIf=email.errors?.pattern&&email.touched>Email format should be 
+                      <small><b>joe@abc.com</b></small></div>
+                    </div>
+
+          <div class="form-group" id="pass">
+         
+              <input class="form-control" id="password"name="password" type="password" placeholder="Password" minlength="8" max="8"  [(ngModel)]="password" maxlength="8" min="8" required #pass="ngModel">
+              
+               <div type="password" class="alert alert-danger" *ngIf="!pass.valid && pass.touched">The password is required</div>
+      <div type="password" class="alert alert-danger" *ngIf="!pass.valid && pass.touched">The password must be 8 digites</div>
+        </div>
+                    <button id="submitLogin"  type="submit" [disabled]="!HeroModelForm.form.valid">Login</button>
+
+          <!-- <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me -->
+          <span id="register">Have no account? <a (click)="register()" id="aRegister">Register</a></span>
+
+        </div>
+      </form>
+</div>
+<!--  -->
+<!-- 
+<input  [attr.type]="isPass ? 'text' : 'password'" >
+<span class="glyphicon glyphicon-eye-close" (click)="isPassF"></span> -->
+<!--  -->

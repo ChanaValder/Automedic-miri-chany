@@ -1,0 +1,92 @@
+#picture{
+	background-image: url("src/app/pictures/homePage.png")!important;
+    background-repeat: no-repeat;
+    background-color: #0f7c67;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+	position: fixed;
+    z-index: -2;
+}
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}  
+
+.container-fluid {
+    padding: 60px 50px;
+}
+.bg-grey {
+    background-color: white;
+    width: 33%;
+    height: 100%;
+    position: fixed;
+    top: 10%;
+    margin-top: 3%;
+    margin-left: 31%;
+}
+.content{
+    top: 6%;
+    margin-top: 5vh;
+    margin-left: 36vw;
+    /* z-index: 2; */
+    position: relative;
+}
+form{
+    position: relative;
+    top: 14vh;
+}
+.confirmAlerts{
+    top: 1vh;
+    position: relative;
+}
+.inp{
+    position: relative;
+    left: 11%;
+}
+.headerMedicine{
+    font-size: 70px;
+    margin-left: 6%;
+    top: 2vh;
+    /* margin-top: 19vh; */
+    position: relative;
+    background: -webkit-linear-gradient(#3333FF, rgb(116, 207, 50));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Teko', sans-serif;
+    width: 168%;
+   }
+
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+  .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+  }
+}
+
+
+.input-group{
+    margin-bottom: 20px;
+}
+.aBtn{
+    top: 5vh;
+    right: -10vw;
+    position: relative;
+}
+
+
+

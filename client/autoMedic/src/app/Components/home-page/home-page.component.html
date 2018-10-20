@@ -1,0 +1,11 @@
+
+    <div id="picture"></div>
+     <div class="container">
+<p class="userName"> Hello {{userName}}!</p>
+
+     </div>   
+ <script src="//tympanus.net/codrops/adpacks/demoad.js"></script>
+<app-login *ngIf="login" (isRegister)=getIsRegister($event)></app-login>
+ <app-register *ngIf="register"></app-register>
+ <!-- <div *ngIf="!login" ><div*ngIf="!register">you are in the site</div></div> -->
+<!-- <app-login ></app-login> -->

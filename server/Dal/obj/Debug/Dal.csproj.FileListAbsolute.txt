@@ -1,0 +1,159 @@
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Dal\bin\Debug\Dal.dll
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Dal\bin\Debug\Dal.pdb
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Dal\bin\Debug\Entities.dll
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Dal\bin\Debug\Models.dll
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Dal\bin\Debug\Entities.pdb
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Dal\bin\Debug\Models.pdb
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Dal\obj\Debug\Dal.csprojResolveAssemblyReference.cache
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Dal\obj\Debug\Dal.dll
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Dal\obj\Debug\Dal.pdb
+C:\Users\hitmachut\Desktop\server\Michrazol\Dal\bin\Debug\Dal.dll
+C:\Users\hitmachut\Desktop\server\Michrazol\Dal\bin\Debug\Dal.pdb
+C:\Users\hitmachut\Desktop\server\Michrazol\Dal\bin\Debug\Entities.dll
+C:\Users\hitmachut\Desktop\server\Michrazol\Dal\bin\Debug\Models.dll
+C:\Users\hitmachut\Desktop\server\Michrazol\Dal\bin\Debug\Entities.pdb
+C:\Users\hitmachut\Desktop\server\Michrazol\Dal\bin\Debug\Entities.dll.config
+C:\Users\hitmachut\Desktop\server\Michrazol\Dal\bin\Debug\Models.pdb
+C:\Users\hitmachut\Desktop\server\Michrazol\Dal\obj\Debug\Dal.csprojResolveAssemblyReference.cache
+C:\Users\hitmachut\Desktop\server\Michrazol\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\Users\hitmachut\Desktop\server\Michrazol\Dal\obj\Debug\Dal.dll
+C:\Users\hitmachut\Desktop\server\Michrazol\Dal\obj\Debug\Dal.pdb
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Dal\bin\Debug\Entities.dll.config
+Y:\group 1 תשעח\בלאו צביה\פרויקט סיום\server\Michrazol\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Dal\obj\Debug\Dal.csprojResolveAssemblyReference.cache
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Dal\obj\Debug\Dal.dll
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Dal\obj\Debug\Dal.pdb
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Dal.dll
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Dal.pdb
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Entities.dll
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Models.dll
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Entities.pdb
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Entities.dll.config
+Y:\group 2 תשעח\קרמר נחמי\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Models.pdb
+D:\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Dal.dll
+D:\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Dal.pdb
+D:\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Entities.dll
+D:\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Models.dll
+D:\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Entities.pdb
+D:\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Entities.dll.config
+D:\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Models.pdb
+D:\AAAA\מיכרזול\server\Michrazol\Dal\obj\Debug\Dal.csprojResolveAssemblyReference.cache
+D:\AAAA\מיכרזול\server\Michrazol\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+D:\AAAA\מיכרזול\server\Michrazol\Dal\obj\Debug\Dal.dll
+D:\AAAA\מיכרזול\server\Michrazol\Dal\obj\Debug\Dal.pdb
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Dal.dll
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Dal.pdb
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Entities.dll
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Models.dll
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Entities.pdb
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Entities.dll.config
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Models.pdb
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Dal\obj\Debug\Dal.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Dal\obj\Debug\Dal.dll
+C:\Users\User\Desktop\AAAA\מיכרזול\server\Michrazol\Dal\obj\Debug\Dal.pdb
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Dal.dll
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Dal.pdb
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Entities.dll
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Models.dll
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Entities.pdb
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Entities.dll.config
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Dal\bin\Debug\Models.pdb
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Dal\obj\Debug\Dal.csprojResolveAssemblyReference.cache
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Dal\obj\Debug\Dal.dll
+Y:\group 2 תשעח\קרמר נחמי\מיכרזול יום חמישי\AAAA\מיכרזול\server\Michrazol\Dal\obj\Debug\Dal.pdb
+C:\Users\hitmachut\Desktop\AutoMedic\Dal\bin\Debug\Dal.dll
+C:\Users\hitmachut\Desktop\AutoMedic\Dal\bin\Debug\Dal.pdb
+C:\Users\hitmachut\Desktop\AutoMedic\Dal\bin\Debug\Entities.dll
+C:\Users\hitmachut\Desktop\AutoMedic\Dal\bin\Debug\Entities.pdb
+C:\Users\hitmachut\Desktop\AutoMedic\Dal\bin\Debug\Entities.dll.config
+C:\Users\hitmachut\Desktop\AutoMedic\Dal\obj\Debug\Dal.csprojResolveAssemblyReference.cache
+C:\Users\hitmachut\Desktop\AutoMedic\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\Users\hitmachut\Desktop\AutoMedic\Dal\obj\Debug\Dal.dll
+C:\Users\hitmachut\Desktop\AutoMedic\Dal\obj\Debug\Dal.pdb
+Y:\group 2 תשעח\ולדר חני\פרויקט גמר\AutoMedic\Dal\bin\Debug\Dal.dll
+Y:\group 2 תשעח\ולדר חני\פרויקט גמר\AutoMedic\Dal\bin\Debug\Dal.pdb
+Y:\group 2 תשעח\ולדר חני\פרויקט גמר\AutoMedic\Dal\bin\Debug\Entities.dll
+Y:\group 2 תשעח\ולדר חני\פרויקט גמר\AutoMedic\Dal\bin\Debug\Entities.pdb
+Y:\group 2 תשעח\ולדר חני\פרויקט גמר\AutoMedic\Dal\obj\Debug\Dal.csprojResolveAssemblyReference.cache
+Y:\group 2 תשעח\ולדר חני\פרויקט גמר\AutoMedic\Dal\obj\Debug\Dal.dll
+Y:\group 2 תשעח\ולדר חני\פרויקט גמר\AutoMedic\Dal\obj\Debug\Dal.pdb
+Y:\group 2 תשעח\ולדר חני\פרויקט גמר\AutoMedic\Dal\bin\Debug\Entities.dll.config
+Y:\group 2 תשעח\ולדר חני\פרויקט גמר\AutoMedic\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+D:\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Dal.dll
+D:\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Dal.pdb
+D:\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Entities.dll
+D:\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Entities.pdb
+D:\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Entities.dll.config
+D:\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\obj\Debug\Dal.csprojResolveAssemblyReference.cache
+D:\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\obj\Debug\Dal.dll
+D:\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\obj\Debug\Dal.pdb
+D:\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+D:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Dal.dll
+D:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Dal.pdb
+D:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Entities.dll
+D:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Entities.pdb
+D:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Entities.dll.config
+D:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\obj\Debug\Dal.csprojResolveAssemblyReference.cache
+D:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+D:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\obj\Debug\Dal.dll
+D:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\obj\Debug\Dal.pdb
+C:\Users\user1\Desktop\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Dal.dll
+C:\Users\user1\Desktop\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Dal.pdb
+C:\Users\user1\Desktop\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Entities.dll
+C:\Users\user1\Desktop\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Entities.pdb
+C:\Users\user1\Desktop\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\obj\Debug\Dal.csprojResolveAssemblyReference.cache
+C:\Users\user1\Desktop\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\obj\Debug\Dal.dll
+C:\Users\user1\Desktop\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\obj\Debug\Dal.pdb
+F:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Dal.dll
+F:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Dal.pdb
+F:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Entities.dll
+F:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Entities.pdb
+F:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Entities.dll.config
+F:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\obj\Debug\Dal.csprojResolveAssemblyReference.cache
+F:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+F:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\obj\Debug\Dal.dll
+F:\שהחיינו\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\obj\Debug\Dal.pdb
+C:\Users\user1\Desktop\שהחיינו2\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Dal.dll
+C:\Users\user1\Desktop\שהחיינו2\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Dal.pdb
+C:\Users\user1\Desktop\שהחיינו2\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Entities.dll
+C:\Users\user1\Desktop\שהחיינו2\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\bin\Debug\Entities.pdb
+C:\Users\user1\Desktop\שהחיינו2\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\obj\Debug\Dal.csprojResolveAssemblyReference.cache
+C:\Users\user1\Desktop\שהחיינו2\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\obj\Debug\Dal.dll
+C:\Users\user1\Desktop\שהחיינו2\17.07.2018\פרויקט מירי אייזן וחני ולדר\server\AutoMedic\Dal\obj\Debug\Dal.pdb
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Dal\bin\Debug\Dal.dll
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Dal\bin\Debug\Dal.pdb
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Dal\bin\Debug\Entities.dll
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Dal\bin\Debug\Entities.pdb
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Dal\bin\Debug\Entities.dll.config
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Dal\obj\Debug\Dal.csprojAssemblyReference.cache
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Dal\obj\Debug\Dal.csproj.CopyComplete
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Dal\obj\Debug\Dal.dll
+C:\Users\miriamai\Desktop\פרויקט מירי וחני\server\Dal\obj\Debug\Dal.pdb
+D:\פרויקט מירי וחני\server\Dal\bin\Debug\Dal.dll
+D:\פרויקט מירי וחני\server\Dal\bin\Debug\Dal.pdb
+D:\פרויקט מירי וחני\server\Dal\bin\Debug\Entities.dll
+D:\פרויקט מירי וחני\server\Dal\bin\Debug\Entities.pdb
+D:\פרויקט מירי וחני\server\Dal\bin\Debug\Entities.dll.config
+D:\פרויקט מירי וחני\server\Dal\obj\Debug\Dal.csprojAssemblyReference.cache
+D:\פרויקט מירי וחני\server\Dal\obj\Debug\Dal.csproj.CoreCompileInputs.cache
+D:\פרויקט מירי וחני\server\Dal\obj\Debug\Dal.csproj.CopyComplete
+D:\פרויקט מירי וחני\server\Dal\obj\Debug\Dal.dll
+D:\פרויקט מירי וחני\server\Dal\obj\Debug\Dal.pdb
+F:\פרויקט מירי וחני\server\Dal\bin\Debug\Dal.dll
+F:\פרויקט מירי וחני\server\Dal\bin\Debug\Dal.pdb
+F:\פרויקט מירי וחני\server\Dal\bin\Debug\Entities.dll
+F:\פרויקט מירי וחני\server\Dal\bin\Debug\Entities.pdb
+F:\פרויקט מירי וחני\server\Dal\obj\Debug\Dal.csprojResolveAssemblyReference.cache
+F:\פרויקט מירי וחני\server\Dal\obj\Debug\Dal.dll
+F:\פרויקט מירי וחני\server\Dal\obj\Debug\Dal.pdb
+C:\Users\user1\Desktop\פרויקט מירי וחני\server\Dal\bin\Debug\Dal.dll
+C:\Users\user1\Desktop\פרויקט מירי וחני\server\Dal\bin\Debug\Dal.pdb
+C:\Users\user1\Desktop\פרויקט מירי וחני\server\Dal\bin\Debug\Entities.dll
+C:\Users\user1\Desktop\פרויקט מירי וחני\server\Dal\bin\Debug\Entities.pdb
+C:\Users\user1\Desktop\פרויקט מירי וחני\server\Dal\obj\Debug\Dal.csprojResolveAssemblyReference.cache
+C:\Users\user1\Desktop\פרויקט מירי וחני\server\Dal\obj\Debug\Dal.dll
+C:\Users\user1\Desktop\פרויקט מירי וחני\server\Dal\obj\Debug\Dal.pdb

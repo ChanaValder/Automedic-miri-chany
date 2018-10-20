@@ -1,0 +1,19 @@
+#picture{
+	background-image: url("src/app/pictures/homePage.png")!important;
+    background-repeat: no-repeat;
+    background-color: #0f7c67;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+	position: fixed;
+    z-index: -2;
+}
+.bg-grey {
+    background-color: white;
+    width: 33%;
+    height: 100%;
+    position: fixed;
+    top: 10%;
+    margin-top: 3%;
+    margin-left: 31%;
+}

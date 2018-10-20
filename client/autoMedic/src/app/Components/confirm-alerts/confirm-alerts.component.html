@@ -1,0 +1,162 @@
+<div>
+
+  <div *ngFor="let item of userAlert.listOfHours; let i=index; trackBy:trackByFn">
+    <input type="time" [(ngModel)]="userAlert.listOfHours[i]">{{i}}{{userAlert.listOfHours[i]}}
+  </div>
+  <!-- <div *ngIf="!isEdit"> -->
+  <button  (click)="addMedicineWithAlertsWithChecking()"> add</button>
+  <!-- </div> -->
+  <!-- <div *ngIf="isEdit"> -->
+  <button (click)="editMedicineWithAlerts()"> edit</button>
+  <!-- </div> -->
+</div>
+
+<section class="content bgcolor-4">
+  <h2>Madoka</h2>
+  <span class="input input--madoka">
+    <input class="input__field input__field--madoka" type="text" id="input-31" />
+    <label class="input__label input__label--madoka" for="input-31">
+      <svg class="graphic graphic--madoka" width="100%" height="100%" viewBox="0 0 404 77" preserveAspectRatio="none">
+        <path d="m0,0l404,0l0,77l-404,0l0,-77z" />
+      </svg>
+      <span class="input__label-content input__label-content--madoka">Frequency</span>
+    </label>
+  </span>
+</section>
+
+
+
+
+
+
+
+<!-- <h1>Copied from https://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects/</h1>
+<section class="content bgcolor-1">
+  <h2>Haruki</h2>
+  <span class="input input--haruki">
+    <input class="input__field input__field--haruki" type="text" id="input-1" />
+    <label class="input__label input__label--haruki" for="input-1">
+      <span class="input__label-content input__label-content--haruki">First Name</span>
+    </label>
+  </span>
+</section>
+<section class="content">
+  <h2>Hoshi</h2>
+  <span class="input input--hoshi">
+    <input class="input__field input__field--hoshi" type="text" id="input-4" />
+    <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
+      <span class="input__label-content input__label-content--hoshi">Name</span>
+    </label>
+  </span>
+  <p>Inspired by Andrej Radisic's <a href="https://dribbble.com/shots/1785176-Jawbreaker-input-field">Jawbreaker input field</a></p>
+</section>
+<section class="content bgcolor-4">
+  <h2>Kuro</h2>
+  <span class="input input--kuro">
+    <input class="input__field input__field--kuro" type="text" id="input-7" />
+    <label class="input__label input__label--kuro" for="input-7">
+      <span class="input__label-content input__label-content--kuro">Username</span>
+    </label>
+  </span>
+</section>
+<section class="content bgcolor-7">
+  <h2>Jiro</h2>
+  <span class="input input--jiro">
+    <input class="input__field input__field--jiro" type="text" id="input-10" />
+    <label class="input__label input__label--jiro" for="input-10">
+      <span class="input__label-content input__label-content--jiro">Cat's Name</span>
+    </label>
+  </span>
+</section>
+<section class="content">
+  <h2>Minoru</h2>
+  <span class="input input--minoru">
+    <input class="input__field input__field--minoru" type="text" id="input-13" />
+    <label class="input__label input__label--minoru" for="input-13">
+      <span class="input__label-content input__label-content--minoru">First Name</span>
+    </label>
+  </span>
+</section>
+<section class="content bgcolor-5">
+  <h2>Yoko</h2>
+  <span class="input input--minoru">
+    <input class="input__field input__field--yoko" type="text" id="input-16" />
+    <label class="input__label input__label--yoko" for="input-16">
+      <span class="input__label-content input__label-content--yoko">Street</span>
+    </label>
+  </span>
+</section>
+<section class="content">
+  <h2>Hideo</h2>
+  <span class="input input--hideo">
+    <input class="input__field input__field--hideo" type="text" id="input-41" />
+    <label class="input__label input__label--hideo" for="input-41">
+      <i class="fa fa-fw fa-user icon icon--hideo"></i>
+      <span class="input__label-content input__label-content--hideo">Username</span>
+    </label>
+  </span>
+</section>
+<section class="content bgcolor-3">
+  <h2>Kyo</h2>
+  <span class="input input--kyo">
+    <input class="input__field input__field--kyo" type="text" id="input-19" />
+    <label class="input__label input__label--kyo" for="input-19">
+      <span class="input__label-content input__label-content--kyo">What's your email?</span>
+    </label>
+  </span>
+</section>
+<section class="content bgcolor-4">
+  <h2>Akira</h2>
+  <span class="input input--akira">
+    <input class="input__field input__field--akira" type="text" id="input-22" />
+    <label class="input__label input__label--akira" for="input-22">
+      <span class="input__label-content input__label-content--akira">First Name</span>
+    </label>
+  </span>
+</section>
+<section class="content">
+  <h2>Ichiro</h2>
+  <span class="input input--ichiro">
+    <input class="input__field input__field--ichiro" type="text" id="input-25" />
+    <label class="input__label input__label--ichiro" for="input-25">
+      <span class="input__label-content input__label-content--ichiro">Bird's Color</span>
+    </label>
+  </span>
+</section>
+<section class="content">
+    <h2>Ichiro</h2>
+    <span class="input input--ichiro">
+      <input class="input__field input__field--ichiro" type="text" id="input-25" />
+      <label class="input__label input__label--ichiro" for="input-25">
+        <span class="input__label-content input__label-content--ichiro">Bird's Color</span>
+      </label>
+    </span>
+  </section>
+<section class="content bgcolor-6">
+    <h2>Juro</h2>
+    <span class="input input--juro">
+      <input class="input__field input__field--juro" type="text" id="input-28" />
+      <label class="input__label input__label--juro" for="input-28">
+        <span class="input__label-content input__label-content--juro">First Name</span>
+      </label>
+    </span>
+  </section>
+<section class="content bgcolor-6">
+  <h2>Juro</h2>
+  <span class="input input--juro">
+    <input class="input__field input__field--juro" type="text" id="input-28" />
+    <label class="input__label input__label--juro" for="input-28">
+      <span class="input__label-content input__label-content--juro">First Name</span>
+    </label>
+  </span>
+</section> -->
+
+
+<!-- <section class="content bgcolor-8">
+  <h2>Isao</h2>
+  <span class="input input--isao">
+    <input class="input__field input__field--isao" type="text" id="input-38" />
+    <label class="input__label input__label--isao" for="input-38" data-content="First Name">
+      <span class="input__label-content input__label-content--isao">First Name</span>
+    </label>
+  </span> -->

@@ -1,0 +1,44 @@
+#picture{
+	background-image: url("src/app/pictures/homePage.png")!important;
+    background-repeat: no-repeat;
+    background-color: #0f7c67;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+	position: fixed;
+    z-index: -2;
+}
+   .bg-grey {
+    background-color: white;
+    width: 39%;
+    position: absolute;
+    top: 11%;
+    margin-top: 3%;
+    margin-left: 32%;
+}
+.td{
+    padding-left: 9%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.headerMedicine{
+    font-size: 63px;
+    margin-left: 6%;
+    position: relative;
+    background: -webkit-linear-gradient(#3333FF, rgb(116, 207, 50));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Teko', sans-serif;
+   }
+   #editstock{
+    background-color: green;
+    width: 25vw;
+    height: 20vh;
+    position: fixed;
+    top: 41vh;
+    right: 38vw;
+   }
+   #inputEditStock{
+    padding-top: 9VH;
+    margin-left: 5vw;
+   }

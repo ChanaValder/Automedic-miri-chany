@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+/* 
+body{
+    background-image: url("src/app/pictures/backIndex.png");
+    background-repeat: round;
+   }  */
+   body {
+    margin-top: 6vh;
+}

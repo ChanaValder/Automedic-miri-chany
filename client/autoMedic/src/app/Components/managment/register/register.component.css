@@ -1,0 +1,17 @@
+#register{
+    background-color: #3068a3;
+    position: fixed;
+    top: 23vh;
+    left: 15vw;
+    width: 24vw;
+    height: 32vh;
+}
+input{
+    width: 20vw;
+    color: white;
+ 
+    position: inherit;
+}
+.w3-container{
+    height: 30vh;
+}

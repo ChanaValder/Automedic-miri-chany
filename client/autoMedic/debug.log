@@ -1,0 +1,3 @@
+[0716/192921:ERROR:tcp_listen_socket.cc(76)] Could not bind socket to 127.0.0.1:6004
+[0716/192921:ERROR:node_debugger.cc(86)] Cannot start debugger server
+[0820/160830.069:ERROR:settings.cc(319)] Settings magic is not 1129342067

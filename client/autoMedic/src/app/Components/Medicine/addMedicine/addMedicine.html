@@ -1,0 +1,103 @@
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Teko" rel="stylesheet">
+
+<div id="picture"></div>
+  <div id="contact" class="container-fluid bg-grey"></div>
+    <div class="col-sm-6 col-sm-offset-0 col-xs-12 content">
+      <form id="bigDiv" >
+        <h1 *ngIf="isAdd" class="headerMedicine">new medicine</h1>
+        <h1 *ngIf="!isAdd">edit medicine</h1>
+        <div>
+          <div class="form-group">
+            <span> medicine name</span>
+
+            <select name="name" [(ngModel)]="userAlert.medicineId">
+              <option *ngFor="let item of medicineList" [ngValue]="item.Id">{{item.medicineName}}</option>
+            </select>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label">amount</label>
+            <div class="col-sm-10 inp">
+              <input type="text" id="amount" name="amount" placeholder="amount" class="form-control" [(ngModel)]="userAlert.amount" />
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label">frequency</label>
+            <div class="col-sm-10 inp">
+              <input type="text" id="frequency" name="frequency" placeholder="frequency" class="form-control"
+                [(ngModel)]="userAlert.frequency" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label"> times a day </label>
+            <div class="col-sm-10 inp">
+              <input type="text" id="timesADay" name="timesADay" placeholder="times a day " class="form-control" [(ngModel)]="userAlert.timesADay" />
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label">from date</label>
+            <div class="col-sm-10 inp">
+              <input type="date" id="fromDate" name="fromDate" class="form-control" #myDate [value]="fromDate| date:'yyyy-MM-dd'"
+                (input)="fromDate=parseDate($event.target.value); fromDate=parseDate($event.target.value)" />
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label">to date </label>
+            <div class="col-sm-10 inp">
+              <input type="date" id="toDate" name="toDate" class="form-control" #myDate [value]="toDate | date:'yyyy-MM-dd'"
+                (input)="toDate=parseDate($event.target.value); toDate=parseDate($event.target.value)" />
+            </div>
+
+          </div>
+          <div class="form-group row">
+
+            <label class="col-sm-2 col-form-label">units in stock </label>
+            <div class="col-sm-10 inp">
+              <input type="text" id="unitsInStock" name="unitsInStock" placeholder="unitsInStock" class="form-control"
+                [(ngModel)]="userAlert.unitsInStock" />
+            </div>
+          </div>
+
+
+        </div>
+        <!-- <input type="submit" id="button" *ngIf="isAdd" class="btn btn-success" value="add" />
+        <input type="submit" id="button" *ngIf="!isAdd" class="btn btn-success" value="edit" /> -->
+        <!-- <app-confirm-alerts></app-confirm-alerts> -->
+  <!-- ---------------confirmAlert------------------------- -->
+  <div *ngIf="isAdd">
+      <button class="btn btn-default aBtn" (click)="addMedicineWithAlertsWithChecking()"> add</button>
+    </div>
+    <div *ngIf="!isAdd">
+      <button  class=" btn btn-default aBtn" (click)="editMedicineWithAlerts()"> edit</button>
+    </div>
+  <div *ngIf="userAlert.timesADay">
+      <div class="form-group">
+          <!-- *ngIf="userAlert.timesADay" -->
+          <button type="button" class="btn btn-default  confirmAlerts" (click)="confirmAlerts()">
+            confirm Alerts
+          </button>
+  
+        </div>
+    <div >
+      <div *ngFor="let item of userAlert.listOfHours; let i=index; trackBy:trackByFn">
+        <input type="time" name="t" [(ngModel)]="userAlert.listOfHours[i]">{{i}}{{userAlert.listOfHours[i]}}
+      </div>
+    </div>
+    
+  </div>
+      </form>
+
+
+      <!-- <app-confirm-alerts *ngIf="userAlert.timesADay" [timesADay]="userAlert.timesADay" [isAdd]="isAdd"></app-confirm-alerts> -->
+
+      <!-- <p>{{date|date:'shortTime'}}</p> -->
+
+    </div>
+  
+  
+
+
+

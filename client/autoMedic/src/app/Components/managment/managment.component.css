@@ -1,0 +1,33 @@
+#logo{
+    background-image: url("src/app/pictures/logo.png")!important;
+
+       background-repeat: no-repeat;
+       background-size: cover;
+       width: 25vw;
+       height: 16vh;
+       position: fixed;
+       left: 9vw;
+       z-index: -1;
+       top: 0vh;
+   
+}
+.alert-danger {
+    /* color: #a94442; */
+    /* background-color: #f2dede; */
+    /* border-color: #ebccd1; */
+    color: white;
+    border-bottom-color: red;
+    border-top-color: red;
+    height: 10vh;
+    /* top: 40vh; */
+    position: inherit;
+    /* top: 93px; */
+    margin-top: 1vh;
+    /* text-align: -webkit-center; */
+    /* text-indent: unset; */
+    text-overflow: 5vh;
+    /* text-combine-upright: unset; */
+    /* text-combine-upright: all; */
+    /* text-decoration: inherit; */
+    /* text-size-adjust: unset; */
+}

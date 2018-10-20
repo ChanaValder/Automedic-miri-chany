@@ -1,0 +1,52 @@
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Teko" rel="stylesheet">
+<div id="picture"></div>
+
+
+    <div id="bg" class="bg-grey">
+<h1 class="headerMedicine">manage your stack</h1>
+<h3>choose the medicine you want to update the stack</h3>
+
+        
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div id="custom-search-input">
+                    <div class="input-group col-md-12">
+                        <input id="search" type="text" class="form-control input-lg" placeholder="Search medicine" (keyup)=search($event.target.value)
+                        />
+                        <span class="input-group-btn">
+                            <button class="btn btn-info btn-lg" type="button">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="row">
+        <div class="col-5">
+            <table class='table'>
+                <tbody>
+                    <tr *ngFor="let item of userMedicineList ">
+                        <td class="td">{{item.medicineName}}</td>
+                        <td>
+                            <button title="ערוך מלאי " class="btn btn-link" (click)="editStack(item)">edit stock </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+        </div>
+    </div>
+    <div id="editstock" *ngIf="isEditStock">
+        <div id="inputEditStock" >
+            <input type="number" value={{unitsInStock}} [(ngModel)]="unitsInStock">
+            <input type="button" value="עדכן מלאי" (click)="updateStack()">
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,93 @@
+
+body{	background-image:url("src/app/pictures/homePage.png")!important;
+    background-repeat: no-repeat;
+}
+#id01{
+    position: absolute;
+ 
+    left: 13vw;
+}
+#submitLogin{
+    background-color: #649055;
+
+    border: none;
+    width: 20vw;
+    color: white;
+    height: 9vh;
+    left: 2vw;
+    position: absolute;
+    top: 19.5vh;
+
+}
+#submitLogin:hover{
+    background-color: white;
+    color: #649055;
+}
+#submitLogin:onclick{
+    background-color: white;
+    color: #649055;
+    border-color: white;
+   
+}
+#register{
+    top: 29vh;
+    position: absolute;
+    /* text-align: center; */
+    left: 5vw;
+    
+}
+#aRegister:hover{
+   
+    cursor: pointer;
+}
+#aRegister{
+    color: white;
+}
+#pass{
+    width: 20vw;
+    color: white;
+ 
+    position: inherit;
+    top: 36vh;
+  
+}
+#mail
+{
+    width: 20vw;
+    color: white;
+    /* height: 9vh; */
+    /* left: 2vw; */
+    position: inherit;
+    top: 24vh;
+    margin-left: 2vw;
+}
+#login
+{
+    background-color: #3068a3;
+    position: fixed;
+    top: 23vh;
+    left: 15vw;
+    width: 24vw;
+    height: 32vh;
+}
+.alert-danger {
+    /* color: #a94442; */
+    /* background-color: #f2dede; */
+    /* border-color: #ebccd1; */
+    color: white;
+    border-bottom-color: red;
+    border-top-color: red;
+    height: 10vh;
+    background-color: transparent;
+    /* top: 40vh; */
+    position: inherit;
+    /* top: 93px; */
+    margin-top: 1vh;
+    /* text-align: -webkit-center; */
+    /* text-indent: unset; */
+    text-overflow: 5vh;
+    /* text-combine-upright: unset; */
+    /* text-combine-upright: all; */
+    /* text-decoration: inherit; */
+    /* text-size-adjust: unset; */
+}
